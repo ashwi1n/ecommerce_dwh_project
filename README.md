@@ -60,19 +60,19 @@ ecommerce_dwh_project/
 git clone https://github.com/ashwi1n/ecommerce_dwh_project.git
 cd ecommerce_dwh_project
 
+```
+### 2. Start Docker Containers
 
----
-
-2. Start Docker Containers
-
+```
 docker-compose up --build
+```
 Airflow web UI: http://localhost:8080
 
 MySQL: Port 3306
 
 Username/Password: root/root
 
-3 Access Airflow UI
+### 3 Access Airflow UI
 Username: airflow
 
 Password: airflow
