@@ -72,12 +72,12 @@ MySQL: Port 3306
 
 Username/Password: root/root
 
-### 3 Access Airflow UI
+### 3. Access Airflow UI
 Username: airflow
-
 Password: airflow
 
 Trigger DAGs manually or schedule them.
+
 
 **⚠️ Default credentials are for local testing only. Do not use them in production.**
 
@@ -87,8 +87,7 @@ Trigger DAGs manually or schedule them.
 - customers
 - orders
 - products
-
-customer_sales_summary (transformed result)
+- customer_sales_summary (transformed result)
 
 
 ### Example SQL Query
