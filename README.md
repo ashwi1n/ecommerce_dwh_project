@@ -5,7 +5,7 @@ This project demonstrates a simple ETL (Extract, Transform, Load) data pipeline 
 ---
 
 ## 📁 Project Structure
-
+```
 ecommerce_dwh_project/
 │
 ├── dags/
@@ -21,7 +21,7 @@ ecommerce_dwh_project/
 ├── init.sql # SQL script to initialize MySQL tables
 ├── docker-compose.yml # Docker config to run Airflow and MySQL
 └── README.md # Project documentation
-
+```
 
 ---
 
