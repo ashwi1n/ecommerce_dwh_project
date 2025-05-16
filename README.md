@@ -79,23 +79,21 @@ Password: airflow
 
 Trigger DAGs manually or schedule them.
 
-⚠️ Default credentials are for local testing only. Do not use them in production.
+**⚠️ Default credentials are for local testing only. Do not use them in production.**
 
 
 ### MySQL Tables 
 
-customers
-
-orders
-
-products
+- customers
+- orders
+- products
 
 customer_sales_summary (transformed result)
 
 
 ### Example SQL Query
 
-SELECT customer_id, total_orders, total_quantity, total_sales
+- SELECT customer_id, total_orders, total_quantity, total_sales
 FROM customer_sales_summary;
 
 ### Scheduling
@@ -116,15 +114,12 @@ schedule_interval='0 1 * * *'  # Every day at 1 AM
 
 ### Key Learnings
 
-Hands-on experience building ETL pipelines using Airflow
-
-Integrating Docker, MySQL, and Airflow
-
-Data modeling and transformation
-
-Automating workflows using DAGs and scheduling
+- Hands-on experience building ETL pipelines using Airflow
+- Integrating Docker, MySQL, and Airflow
+- Data modeling and transformation
+- Automating workflows using DAGs and scheduling
 
 ### Contact
-Created by Ashwin
+- Created by Ashwin
 
 Feel free to reach out or raise issues!
