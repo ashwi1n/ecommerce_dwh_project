@@ -81,8 +81,8 @@ Trigger DAGs manually or schedule them.
 
 ⚠️ Default credentials are for local testing only. Do not use them in production.
 
-MySQL Tables
-Tables Created
+MySQL Tables 
+
 customers
 
 orders
