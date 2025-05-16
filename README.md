@@ -82,7 +82,7 @@ Trigger DAGs manually or schedule them.
 ⚠️ Default credentials are for local testing only. Do not use them in production.
 
 
-MySQL Tables 
+### MySQL Tables 
 
 customers
 
@@ -100,7 +100,7 @@ FROM customer_sales_summary;
 
 ### Scheduling
 
-    Airflow DAGs can be scheduled as follows:
+Airflow DAGs can be scheduled as follows:
 ```
 schedule_interval='0 1 * * *'  # Every day at 1 AM
 ```
@@ -126,4 +126,5 @@ Automating workflows using DAGs and scheduling
 
 ### Contact
 Created by Ashwin
+
 Feel free to reach out or raise issues!
