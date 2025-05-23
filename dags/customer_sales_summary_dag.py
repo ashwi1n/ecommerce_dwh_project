@@ -10,7 +10,8 @@ default_args = {
 with DAG(
     'customer_sales_summary_transform',
     default_args=default_args,
-    schedule_interval='0 1 * * *',  # 🔁 This makes it run every day at 1 AM
+    schedule_interval="*/10 * * * *",  # Every 10 minutes
+
     catchup=False,
 ) as dag:
 
